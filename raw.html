@@ -1,0 +1,195 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ScrollScape - Where Scrolls Meet Cyberspace</title>
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700;900&family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-scroll w-8 h-8 text-purple-300" id="nav-logo"><path d="M19 17V5a2 2 0 0 0-2-2H4"></path><path d="M8 21h12a2 2 0 0 0 2-2v-1a1 1 0 0 0-1-1H11a1 1 0 0 0-1 1v1a2 2 0 1 1-4 0V5a2 2 0 1 0-4 0v2a1 1 0 0 0 1 1h3"></path> </svg><!-- <img src="scroll_icon.svg"  alt="Scroll nav-logo" id="nav-logo"> -->
+                <a href="#home" class="nav-logo">ScrollScape</a>
+            </div>
+            <ul class="nav-links" id="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#how-it-works">How It Works</a></li>
+                <li><a href="#features">Features</a></li>
+                <li><a href="#use-cases">Use Cases</a></li>
+                <li><a href="#testimonials">Testimonials</a></li>
+            </ul>
+            <div class="nav-toggle" id="nav-toggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-scroll w-8 h-8 text-purple-300" id="svglogo"><path d="M19 17V5a2 2 0 0 0-2-2H4"></path><path d="M8 21h12a2 2 0 0 0 2-2v-1a1 1 0 0 0-1-1H11a1 1 0 0 0-1 1v1a2 2 0 1 1-4 0V5a2 2 0 1 0-4 0v2a1 1 0 0 0 1 1h3"></path></svg>
+                <div class="logo" data-aos="fade-up">ScrollScape</div>
+                <h1 data-aos="fade-up" data-aos-delay="200">Where Scrolls Meet Cyberspace</h1>
+                <p data-aos="fade-up" data-aos-delay="400">Craft immersive web animations with the elegance of history and the power of future tech.</p>
+                <div class="cta-buttons" data-aos="fade-up" data-aos-delay="600">
+                    <a href="#how-it-works" class="btn btn-primary">Start Animating</a>
+                    <a href="#features" class="btn btn-secondary">Explore Features</a>
+                </div>
+            </div>
+        </div>
+        <div class="scroll-indicator"></div>
+    </section>
+
+    <!-- How ScrollScape Works Section -->
+    <section id="how-it-works" class="how-it-works">
+        <div class="container">
+            <h2 class="section-title" data-aos="fade-up">How ScrollScape Works</h2>
+            <div class="works-grid">
+                <div class="work-step" data-aos="fade-up" data-aos-delay="100">
+                    <div class="step-number">1</div>
+                    <span class="step-icon">🎨</span>
+                    <h3>Animate 3D Model</h3>
+                    <p>Design and animate your 3D models with our intuitive drag-and-drop interface. Create stunning visual effects with real-time preview capabilities.</p>
+                </div>
+                <div class="work-step" data-aos="fade-up" data-aos-delay="200">
+                    <div class="step-number">2</div>
+                    <span class="step-icon">🔗</span>
+                    <h3>Provide Link to Online Model</h3>
+                    <p>Import existing 3D models from online libraries or your own repositories. Support for popular formats including GLTF, OBJ, and FBX.</p>
+                </div>
+                <div class="work-step" data-aos="fade-up" data-aos-delay="300">
+                    <div class="step-number">3</div>
+                    <span class="step-icon">📤</span>
+                    <h3>Upload HTML File</h3>
+                    <p>Upload your existing HTML file or start from scratch. Our editor integrates seamlessly with your current web projects and frameworks.</p>
+                </div>
+                <div class="work-step" data-aos="fade-up" data-aos-delay="400">
+                    <div class="step-number">4</div>
+                    <span class="step-icon">⬇️</span>
+                    <h3>Download Animated File</h3>
+                    <p>Export your completed scroll-animated scene as optimized HTML, CSS, and JavaScript files ready for deployment on any web platform.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section id="features" class="features">
+        <div class="container">
+            <h2 class="section-title" data-aos="fade-up">What Makes ScrollScape Magical</h2>
+            <div class="features-grid">
+                <div class="feature-card" id="feature-card1" data-aos="fade-up" data-aos-delay="100">
+                    <span class="feature-icon">🎨</span>
+                    <h3>Drag-and-Drop 3D Scene Builder</h3>
+                    <p>Intuitive visual editor that lets you craft stunning 3D scenes without writing a single line of code. Just drag, drop, and watch your vision come to life.</p>
+                </div>
+                <div class="feature-card" id="feature-card2" data-aos="fade-up" data-aos-delay="200">
+                    <span class="feature-icon">⏱️</span>
+                    <h3>Scroll Timeline Control</h3>
+                    <p>Synchronize your animations perfectly with scroll position. Create cinematic experiences that respond fluidly to user interaction.</p>
+                </div>
+                <div class="feature-card" id="feature-card3" data-aos="fade-up" data-aos-delay="300">
+                    <span class="feature-icon">🔧</span>
+                    <h3>WebGL/Three.js Compatible</h3>
+                    <p>Built on industry-standard technologies. Export your creations as optimized WebGL scenes compatible with any modern web framework.</p>
+                </div>
+                <div class="feature-card" id="feature-card4" data-aos="fade-up" data-aos-delay="400">
+                    <span class="feature-icon">📝</span>
+                    <h3>Instant Embeddable Snippet</h3>
+                    <p>Generate clean, lightweight code snippets ready to embed in any website. One click to copy, paste, and deploy your masterpiece.</p>
+                </div>
+                <div class="feature-card" id="feature-card5" data-aos="fade-up" data-aos-delay="500">
+                    <span class="feature-icon">👀</span>
+                    <h3>Real-time Animation Preview</h3>
+                    <p>See your changes instantly with our live preview engine. Test scroll interactions, timing, and effects in real-time as you build.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Use Cases Section -->
+    <section id="use-cases" class="use-cases">
+        <div class="container">
+            <h2 class="section-title" data-aos="fade-up">Bring Stories to Life on the Web</h2>
+            <div class="use-cases-grid">
+                <div class="use-case-card" data-aos="zoom-in" data-aos-delay="100">
+                    <span class="use-case-icon">💼</span>
+                    <h3>Interactive Portfolio Hero</h3>
+                    <p>Transform your portfolio with scroll-driven 3D animations that showcase your work in an unforgettable way. Stand out from the crowd with dynamic, engaging presentations that tell your professional story.</p>
+                </div>
+                <div class="use-case-card" data-aos="zoom-in" data-aos-delay="200">
+                    <span class="use-case-icon">📦</span>
+                    <h3>Product Showcases with 3D</h3>
+                    <p>Revolutionize e-commerce with immersive product experiences. Let customers explore products from every angle with smooth 3D rotations and scroll-triggered reveals that boost engagement and conversions.</p>
+                </div>
+                <div class="use-case-card" data-aos="zoom-in" data-aos-delay="300">
+                    <span class="use-case-icon">📊</span>
+                    <h3>Immersive Data Storytelling</h3>
+                    <p>Transform complex data into compelling visual narratives. Create scroll-driven infographics and interactive charts that guide viewers through your insights with cinematic flair.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section id="testimonials" class="testimonials">
+        <div class="container">
+            <h2 class="section-title" data-aos="fade-up">Creators Love ScrollScape</h2>
+            <div class="testimonials-grid">
+                <div class="testimonial-card" data-aos="fade-right" data-aos-delay="100">
+                    <p class="testimonial-text">ScrollScape transformed my portfolio completely. The scroll animations are buttery smooth, and clients are blown away by the immersive experience. It's like having a Hollywood VFX team in your browser.</p>
+                    <div class="testimonial-author">Maya Chen</div>
+                    <div class="testimonial-role">Creative Director, Pixel Dreams Studio</div>
+                </div>
+                <div class="testimonial-card" data-aos="fade-left" data-aos-delay="200">
+                    <p class="testimonial-text">As a developer who's not great with design, ScrollScape is a game-changer. I can create stunning 3D experiences without touching complex WebGL code. My clients think I'm a wizard!</p>
+                    <div class="testimonial-author">Alex Rodriguez</div>
+                    <div class="testimonial-role">Full-Stack Developer</div>
+                </div>
+                <div class="testimonial-card" data-aos="fade-right" data-aos-delay="300">
+                    <p class="testimonial-text">The real-time preview feature is incredible. I can iterate on scroll animations instantly and see exactly how they'll feel to users. It's revolutionized our design process.</p>
+                    <div class="testimonial-author">Sarah Kim</div>
+                    <div class="testimonial-role">UX Designer, TechFlow Inc</div>
+                </div>
+                <div class="testimonial-card" data-aos="fade-left" data-aos-delay="400">
+                    <p class="testimonial-text">ScrollScape helped us create the most engaging product showcase we've ever had. Sales increased 40% after launching our new 3D product explorer. Absolutely phenomenal tool.</p>
+                    <div class="testimonial-author">Marcus Thompson</div>
+                    <div class="testimonial-role">E-commerce Manager</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-scroll w-8 h-8 text-purple-300" id="footer-logo"><path d="M19 17V5a2 2 0 0 0-2-2H4"></path><path d="M8 21h12a2 2 0 0 0 2-2v-1a1 1 0 0 0-1-1H11a1 1 0 0 0-1 1v1a2 2 0 1 1-4 0V5a2 2 0 1 0-4 0v2a1 1 0 0 0 1 1h3"></path> </svg><!-- <img src="scroll_icon.svg"  alt="Scroll nav-logo" id="nav-logo"> -->
+                ScrollScape</div>
+                <div class="footer-links">
+                    <a href="#docs">Documentation</a>
+                    <a href="#github">GitHub</a>
+                    <a href="#discord">Discord</a>
+                    <a href="#blog">Blog</a>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 ScrollScape. Crafted with ✨ for the future of web animation.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
